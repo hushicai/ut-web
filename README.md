@@ -1,3 +1,3 @@
-# ut-browser
+# ut-web
 
-unit test config for browser.
+ut config for web
