@@ -1,0 +1,30 @@
+{
+  "name": "ut-simple",
+  "version": "1.0.0",
+  "description": "unit test config for simple web.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start test/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hushicai/ut-simple.git"
+  },
+  "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hushicai/ut-simple/issues"
+  },
+  "homepage": "https://github.com/hushicai/ut-simple",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.31",
+    "karma-coverage": "^0.3.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
